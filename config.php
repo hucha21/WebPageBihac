@@ -19,7 +19,7 @@ define('CONTACTFORM_TO_NAME', 'Kritika/Sugestija');
 // The details of your SMTP service, e.g. Gmail.
 define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.gmail.com');
 define('CONTACTFORM_SMTP_USERNAME', 'testHusic@gmail.com');
-define('CONTACTFORM_SMTP_PASSWORD', 'wltzhmkcotnmkzcq');
+define('CONTACTFORM_SMTP_PASSWORD', 'Some password');
 
 // The reCAPTCHA credentials for your site. You can get these at https://www.google.com/recaptcha/admin
 define('CONTACTFORM_RECAPTCHA_SITE_KEY', '');
