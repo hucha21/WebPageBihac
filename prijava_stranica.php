@@ -10,11 +10,10 @@
 </head>
 <body>
  <?php
-$servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+$username = "";
+$password = "";
+$dbname = "";
+$message = "";
 // Create connection
 $konekcija = new mysqli($servername, $username, $password, $dbname);
 // Check connection
