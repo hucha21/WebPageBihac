@@ -12,11 +12,11 @@
 
  <?php
  function Brisanje(){
-	$servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+	$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
+$message = "";
 // Create connection
 $konekcija = new mysqli($servername, $username, $password, $dbname);
 //$id=$_COOKIE["gfg"];
@@ -27,11 +27,11 @@ echo "<script type='text/javascript'>alert('nesto');</script>";
 
 
 if(isset($_POST['obrisiBtn'])){
-	$servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+	$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
+$message = "";
 // Create connection
 $konekcija = new mysqli($servername, $username, $password, $dbname);
 
@@ -42,10 +42,10 @@ $konekcija = new mysqli($servername, $username, $password, $dbname);
 }
 if(isset($_POST['obrisiSveBtn'])){
 	$servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+$username = "";
+$password = "";
+$dbname = "";
+$message = "";
 // Create connection
 $konekcija = new mysqli($servername, $username, $password, $dbname);
 
@@ -54,10 +54,10 @@ $konekcija = new mysqli($servername, $username, $password, $dbname);
 }
 if(isset($_POST['odjavaBtn'])){
 	$servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+$username = "";
+$password = "";
+$dbname = "";
+$message = "";
 // Create connection
 $konekcija = new mysqli($servername, $username, $password, $dbname);
 
@@ -65,11 +65,10 @@ $konekcija = new mysqli($servername, $username, $password, $dbname);
 }
  
  function get_prijave(){
-        $servername = "sql105.byetcluster.com";
-$username = "epiz_26769605";
-$password = "TZehtiTpjJP";
-$dbname = "epiz_26769605_ip_projekat_baza";
-$message = "Neispravan unos podataka.";
+        $username = "";
+$password = "";
+$dbname = "";
+$message = "";
         $conn = new mysqli($servername, $username, $password, $dbname, '3306');
         $conn->set_charset("utf8");
         $sql = "";
